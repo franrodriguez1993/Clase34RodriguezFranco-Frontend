@@ -1,2 +1,2 @@
-export const URL_API = "http://localhost:5000/api";
-export const URL_FILES = "http://localhost:5000";
+export const URL_API = "https://codertprodriguezapi.onrender.com/api";
+export const URL_FILES = "https://codertprodriguezapi.onrender.com";
