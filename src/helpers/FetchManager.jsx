@@ -22,6 +22,7 @@ class FetchContainer {
         headers: {
           "Content-Type": "application/json",
         },
+        credentials: "include",
         body: JSON.stringify(body),
       });
 
@@ -37,6 +38,7 @@ class FetchContainer {
         headers: {
           "Content-Type": "application/json",
         },
+        credentials: "include",
         body: JSON.stringify(body),
       });
       return await res.json();
@@ -51,6 +53,7 @@ class FetchContainer {
         headers: {
           "Content-Type": "application/json",
         },
+        credentials: "include",
       });
       return await res.json();
     } catch (err) {
