@@ -84,6 +84,7 @@ class FetchContainer {
         headers: {
           "Content-Type": "application/json",
         },
+        credentials: "include",
         body: JSON.stringify(data),
       });
       return res.json();
@@ -96,6 +97,7 @@ class FetchContainer {
       const res = await fetch(url, {
         method: "PUT",
         body: data,
+        credentials: "include",
       });
 
       return await res.json();
